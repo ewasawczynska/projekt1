@@ -1,6 +1,16 @@
 footer {
-  background-color: #000000;
+  background-color: red;
   color: #fff;
+  margin: 0;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  font-family: "Inter";
+}
+h3,
+p,
+ul,
+body {
   margin: 0;
 }
 a {
@@ -8,13 +18,21 @@ a {
   text-decoration: none;
 }
 .footer-section {
-  &:first-child {
-    display: none;
+  //   &:first-child {
+  //     display: none;
+  //   }
+  display: flex;
+  flex-direction: column;
+  margin: 32px 16px;
+  &:last-child {
+    flex-direction: row;
+    gap: 14px;
   }
+  gap: 12px;
+  align-items: flex-start;
   &__logo {
     &--icon {
       fill: fff;
-      stroke: fff;
     }
   }
   &__title {

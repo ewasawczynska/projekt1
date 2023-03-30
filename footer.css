@@ -1,6 +1,17 @@
 footer {
-  background-color: #000000;
+  background-color: red;
   color: #fff;
+  margin: 0;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  font-family: "Inter";
+}
+
+h3,
+p,
+ul,
+body {
   margin: 0;
 }
 
@@ -9,12 +20,19 @@ a {
   text-decoration: none;
 }
 
-.footer-section:first-child {
-  display: none;
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 16px;
+  gap: 12px;
+  align-items: flex-start;
+}
+.footer-section:last-child {
+  flex-direction: row;
+  gap: 14px;
 }
 .footer-section__logo--icon {
   fill: fff;
-  stroke: fff;
 }
 .footer-section__title {
   font-style: normal;
