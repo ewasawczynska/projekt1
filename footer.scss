@@ -8,6 +8,15 @@ a {
   text-decoration: none;
 }
 .footer-section {
+  &:first-child {
+    display: none;
+  }
+  &__logo {
+    &--icon {
+      fill: fff;
+      stroke: fff;
+    }
+  }
   &__title {
     font-style: normal;
     font-weight: 700;
@@ -20,7 +29,9 @@ a {
     font-size: 14px;
     line-height: 1.21;
   }
-  &__icon {
-    fill: #fff;
+  &__sm {
+    &--icon {
+      stroke: #fff;
+    }
   }
 }

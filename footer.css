@@ -9,6 +9,13 @@ a {
   text-decoration: none;
 }
 
+.footer-section:first-child {
+  display: none;
+}
+.footer-section__logo--icon {
+  fill: fff;
+  stroke: fff;
+}
 .footer-section__title {
   font-style: normal;
   font-weight: 700;
@@ -21,6 +28,6 @@ a {
   font-size: 14px;
   line-height: 1.21;
 }
-.footer-section__icon {
-  fill: #fff;
+.footer-section__sm--icon {
+  stroke: #fff;
 }/*# sourceMappingURL=footer.css.map */
