@@ -25,10 +25,9 @@ a {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  align-content: flex-start;
+  gap: 32px;
   &__item {
-    flex-basis: ((100% - 10px) / 2);
+    flex-basis: calc((100% - 32px) / 2);
   }
 }
 
