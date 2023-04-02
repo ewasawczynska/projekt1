@@ -22,12 +22,13 @@ a {
   padding: 32px 16px;
 }
 
-.footer-main {
+.footer {
   display: flex;
   flex-wrap: wrap;
-  gap: 44px;
+  gap: 10px;
+  align-content: flex-start;
   &__item {
-    flex-basis: calc((100% - 44px) / 2);
+    flex-basis: ((100% - 10px) / 2);
   }
 }
 
@@ -39,9 +40,6 @@ a {
     }
   }
   &__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
     line-height: 1.22;
     margin-bottom: 18px;
   }
